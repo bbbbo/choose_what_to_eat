@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lecture.mobile.final_project.ma02_20150969.SplashActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="421dp"
+        app:srcCompat="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="결정장애를 위한"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#99004C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:text="CHOOSE WHAT TO EAT"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#99004C"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:text="-서울편"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#99004C"
+        android:textIsSelectable="true"
+        android:textSize="14sp" />
+
+</LinearLayout>

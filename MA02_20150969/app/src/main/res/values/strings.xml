@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Ma02_20150969</string>
+    <string name="server_url">http://api.visitkorea.or.kr/openapi/service/rest/KorService/searchKeyword?ServiceKey=Wy5QQMOdViHJOo7S4ApDm12IkngZVXctO7Cn0BvT5I5JKA%2F8Iu3d3j4%2B8T%2BLJ8KFtPYs0YBNf4hqPL%2BBXX6Gjg%3D%3D&amp;MobileOS=ETC&amp;MobileApp=AppTest&amp;contentTypeId=39&amp;areaCode=1&amp;cat1=A05&amp;cat2=A0502&amp;keyword=</string>
+    <string name="currentLoc_url">http://api.visitkorea.or.kr/openapi/service/rest/KorService/locationBasedList?ServiceKey=Wy5QQMOdViHJOo7S4ApDm12IkngZVXctO7Cn0BvT5I5JKA%2F8Iu3d3j4%2B8T%2BLJ8KFtPYs0YBNf4hqPL%2BBXX6Gjg%3D%3D&amp;MobileOS=ETC&amp;MobileApp=AppTest&amp;numOfRows=70&amp;arrange=A&amp;contentTypeId=39&amp;radius=500&amp;listYN=Y&amp;mapX=</string>
+    <string name="areaBased_url">http://api.visitkorea.or.kr/openapi/service/rest/KorService/areaBasedList?ServiceKey=Wy5QQMOdViHJOo7S4ApDm12IkngZVXctO7Cn0BvT5I5JKA%2F8Iu3d3j4%2B8T%2BLJ8KFtPYs0YBNf4hqPL%2BBXX6Gjg%3D%3D&amp;areaCode=1&amp;numOfRows=5&amp;MobileOS=ETC&amp;MobileApp=AppTest&amp;contentTypeId=39&amp;cat1=A05&amp;cat2=A0502&amp;arrange=B</string>
+    <string name="food_url">http://api.visitkorea.or.kr/openapi/service/rest/KorService/areaBasedList?ServiceKey=Wy5QQMOdViHJOo7S4ApDm12IkngZVXctO7Cn0BvT5I5JKA%2F8Iu3d3j4%2B8T%2BLJ8KFtPYs0YBNf4hqPL%2BBXX6Gjg%3D%3D&amp;areaCode=1&amp;numOfRows=70&amp;MobileOS=ETC&amp;MobileApp=AppTest&amp;contentTypeId=39&amp;cat1=A05&amp;cat2=A0502&amp;arrange=B</string>
+    <string name="cook_url">http://211.237.50.150:7080/openapi/f5a5e5f2c2213f8317b5a70f781c88e12effdbe201a03878710a20824cc39519/xml/Grid_20150827000000000226_1/1/5?RECIPE_NM_KO=</string>
+    <string name="recipe_url">http://211.237.50.150:7080/openapi/f5a5e5f2c2213f8317b5a70f781c88e12effdbe201a03878710a20824cc39519/xml/Grid_20150827000000000228_1/1/5?RECIPE_ID=</string>
+
+    <string name="s1_url">http://openapi.gangnam.go.kr:8088/77754a5443716872333466546a6c4a/xml/GnModelRestaurantDesignate/1/100/</string>
+    <string name="s2_url">http://openAPI.gd.go.kr:8088/77754a5443716872333466546a6c4a/xml/GdModelRestaurantDesignate/1/100/</string>
+    <string name="s3_url">http://openAPI.gangbuk.go.kr:8088/77754a5443716872333466546a6c4a/xml/GbModelRestaurantDesignate/1/100/</string>
+    <string name="s4_url">http://openAPI.gangseo.seoul.kr:8088/77754a5443716872333466546a6c4a/xml/GangseoModelRestaurantDesignate/1/100/</string>
+    <string name="s5_url">http://openAPI.gwanak.go.kr:8088/77754a5443716872333466546a6c4a/xml/GaModelRestaurantDesignate/1/100/</string>
+    <string name="s6_url">http://openAPI.gwangjin.go.kr:8088/77754a5443716872333466546a6c4a/xml/GwangjinModelRestaurantDesignate/1/100/</string>
+    <string name="s7_url">http://openAPI.guro.go.kr:8088/77754a5443716872333466546a6c4a/xml/GuroModelRestaurantDesignate/1/100/</string>
+    <string name="s8_url">http://openAPI.geumcheon.go.kr:8088/77754a5443716872333466546a6c4a/xml/GeumcheonModelRestaurantDesignate/1/100/</string>
+    <string name="s9_url">http://openAPI.nowon.go.kr:8088/77754a5443716872333466546a6c4a/xml/NwModelRestaurantDesignate/1/100/</string>
+    <string name="s10_url">http://openAPI.dobong.go.kr:8088/77754a5443716872333466546a6c4a/xml/DobongModelRestaurantDesignate/1/100/</string>
+    <string name="s11_url">http://openAPI.ddm.go.kr:8088/77754a5443716872333466546a6c4a/xml/DongdeamoonModelRestaurantDesignate/1/100/</string>
+    <string name="s12_url">http://openAPI.dongjak.go.kr:8088/77754a5443716872333466546a6c4a/xml/DjModelRestaurantDesignate/1/100/</string>
+    <string name="s13_url">http://openAPI.mapo.go.kr:8088/77754a5443716872333466546a6c4a/xml/MpModelRestaurantDesignate/1/100/</string>
+    <string name="s14_url">http://openAPI.sdm.go.kr:8088/77754a5443716872333466546a6c4a/xml/SeodaemunModelRestaurantDesignate/1/100/</string>
+    <string name="s15_url">http://openAPI.seocho.go.kr:8088/77754a5443716872333466546a6c4a/xml/ScModelRestaurantDesignate/1/100/</string>
+    <string name="s16_url">http://openAPI.sd.go.kr:8088/77754a5443716872333466546a6c4a/xml/SdModelRestaurantDesignate/1/100/</string>
+    <string name="s17_url">http://openAPI.sb.go.kr:8088/77754a5443716872333466546a6c4a/xml/SbModelRestaurantDesignate/1/100/</string>
+    <string name="s18_url">http://openAPI.songpa.seoul.kr:8088/77754a5443716872333466546a6c4a/xml/SpModelRestaurantDesignate/1/100/</string>
+    <string name="s19_url">http://openAPI.yangcheon.go.kr:8088/77754a5443716872333466546a6c4a/xml/YcModelRestaurantDesignate/1/100/</string>
+    <string name="s20_url">http://openAPI.ydp.go.kr:8088/77754a5443716872333466546a6c4a/xml/YdpModelRestaurantDesignate/1/100/</string>
+    <string name="s21_url">http://openAPI.yongsan.go.kr:8088/77754a5443716872333466546a6c4a/xml/YsModelRestaurantDesignate/1/100/</string>
+    <string name="s22_url">http://openAPI.ep.go.kr:8088/77754a5443716872333466546a6c4a/xml/EpModelRestaurantDesignate/1/100/</string>
+    <string name="s23_url">http://openapi.jongno.go.kr:8088/77754a5443716872333466546a6c4a/xml/JongnoModelRestaurantDesignate/1/100/</string>
+    <string name="s24_url">http://openAPI.junggu.seoul.kr:8088/77754a5443716872333466546a6c4a/xml/JungguModelRestaurantDesignate/1/100/</string>
+    <string name="s25_url">http://openAPI.jungnang.seoul.kr:8088/77754a5443716872333466546a6c4a/xml/JungnangModelRestaurantDesignate/1/100/</string>
+
+
+    <string name="spinner_title">지역을 선택하세요</string>
+    <string-array name="array_region">
+        <item> 지역 선택 </item>
+        <item> 강남구 </item>
+        <item> 강동구 </item>
+        <item> 강북구 </item>
+        <item> 강서구 </item>
+        <item> 관악구 </item>
+        <item> 광진구 </item>
+        <item> 구로구 </item>
+        <item> 금천구 </item>
+        <item> 노원구 </item>
+        <item> 도봉구 </item>
+        <item> 동대문구 </item>
+        <item> 동작구 </item>
+        <item> 마포구 </item>
+        <item> 서대문구 </item>
+        <item> 서초구 </item>
+        <item> 성동구 </item>
+        <item> 성북구 </item>
+        <item> 송파구 </item>
+        <item> 양천구 </item>
+        <item> 영등포구 </item>
+        <item> 용산구 </item>
+        <item> 은평구 </item>
+        <item> 종로구 </item>
+        <item> 중구 </item>
+        <item> 중랑구 </item>
+    </string-array>
+
+    <string name="spinner_recipe">음식을 선택하세요</string>
+    <string-array name="array_recipe">
+        <item> 음식 선택 </item>
+        <item>쫄면</item>
+        <item>나물비빔밥</item>
+        <item>크림소스파스타</item>
+        <item>녹두고물호박떡케이크</item>
+        <item>버섯잡채</item>
+        <item>상추미소국</item>
+        <item>돼지갈비레몬찜</item>
+        <item>낙지연포탕</item>
+        <item>새우죽</item>
+        <item>된장찌개</item>
+        <item>고구마강정</item>
+        <item>갈치조림</item>
+        <item>갈치구이</item>
+        <item>고등어조림</item>
+        <item>돌솥비빔밥</item>
+        <item>낙지불고기</item>
+        <item>돼지고기우엉말이조림</item>
+        <item>쇠고기덮밥</item>
+        <item>돼지불고기</item>
+        <item>떡꼬치</item>
+        <item>참치김치찌개</item>
+        <item>어묵볶음</item>
+        <item>볶음우동</item>
+        <item>장어덮밥</item>
+        <item>토마토해산물스파게티</item>
+    </string-array>
+
+</resources>

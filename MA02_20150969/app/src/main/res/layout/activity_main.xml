@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvPosition"
+            android:text=" 현재 위치:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="알수없음"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="170dp"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:prompt="@string/spinner_title" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvExplain"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="무엇을 먹을지 고민이라면 랜덤을 눌러주세요"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#BDBDBD" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/layout_random"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_random"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="랜덤"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_random"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/random" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#BDBDBD"/>
+
+        <LinearLayout
+            android:id="@+id/layout_food"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="전체보기"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/food" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#BDBDBD"/>
+
+        <LinearLayout
+            android:id="@+id/layout_korea"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_korea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="한식"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_korea"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/korea" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#BDBDBD"/>
+
+        <LinearLayout
+            android:id="@+id/layout_japan"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_japan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="일식"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_japan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/sushi" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#BDBDBD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/layout_china"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_china"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="중식"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_china"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/china" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#BDBDBD"/>
+
+
+        <LinearLayout
+            android:id="@+id/layout_western"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_western"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="경양식"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_western"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/western" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#BDBDBD"/>
+
+        <LinearLayout
+            android:id="@+id/layout_world"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_world"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="기타"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_world"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/world" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#BDBDBD"/>
+
+        <LinearLayout
+            android:id="@+id/layout_cook"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_salad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="저장리스트"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_salad"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/zzim" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#BDBDBD" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text=" 현재 위치 음식점 조회순 BEST 5"
+        android:textAlignment="center"
+        android:textColor="#99004C"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvBest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정보를 찾을 수 없습니다"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

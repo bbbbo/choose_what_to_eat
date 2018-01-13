@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lecture.mobile.final_project.ma02_20150969.RandomActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:text="메뉴 선택"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnRoll"
+            android:layout_alignLeft="@+id/btnRoll"
+            android:layout_alignStart="@+id/btnRoll"
+            android:layout_marginBottom="77dp"
+            android:background="@color/cast_intro_overlay_button_background_color"
+            android:text="Random"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnRoll"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="134dp"
+            android:background="@color/cast_intro_overlay_button_background_color"
+            android:onClick="onClick"
+            android:text="Roll" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/i4"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="19dp"
+            app:srcCompat="@drawable/i2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/btnRoll"
+            android:layout_alignStart="@+id/btnRoll"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/i3"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/tvResult"
+            android:layout_alignStart="@+id/tvResult" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/i8"
+            android:layout_above="@+id/tvResult"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_toEndOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/i9"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignRight="@+id/btnRoll"
+            android:layout_alignEnd="@+id/btnRoll"
+            android:layout_marginRight="26dp"
+            android:layout_marginEnd="26dp" />
+    </RelativeLayout>
+
+</LinearLayout>
